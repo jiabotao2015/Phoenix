@@ -28,7 +28,7 @@
 			</plugin>
 		</plugins>
 	</build>
-	
+
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -149,10 +149,14 @@
 				<version>1.0.0.Final</version>
 			</dependency>
 			<dependency>
-			    <groupId>org.opengis</groupId>
-			    <artifactId>geoapi</artifactId>
-			    <version>3.0.0</version>
+				<groupId>com.spatial4j</groupId>
+				<artifactId>spatial4j</artifactId>
+				<version>0.5</version>
 			</dependency>
+
 		</dependencies>
 	</dependencyManagement>
+	<modules>
+		<module>Phoenix-API</module>
+	</modules>
 </project>
